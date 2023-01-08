@@ -27,7 +27,42 @@
         </div>
     </header>
     <main>
-        
+        <h3>After you have submited this form we will get in contact with you to continue with the adoption process</h3>
+        <form action="/contact" method="post">
+            <fieldset>
+                <legend>Contact Form</legend>
+                <label>Enter your name</label><br>
+                <input type="text" name="name"><br>
+                <label>Enter your email</label><br>
+                <input type="email" name="email"><br>
+                <label>Enter your phone</label><br>
+                <input type="tel" name="phone"><br>
+                <label>Enter address</label><br>
+                <input type="text" name="address"><br><br>
+                <label>How should we contact you?</label><br>
+                <input type="radio" name="contact" value="email">Email
+                <input type="radio" name="contact" value="tel">Phone <br>
+                <br>
+                <label>Do you have a backyard?</label><br>
+                <input type="radio" name="patio" value="yes">Yes
+                <input type="radio" name="patio" value="no">No<br>
+                <br>
+                <label>How many people live with you?</label><br>
+                <input type="radio" name="patio" value="None">None <br>   
+                <input type="radio" name="patio" value="one-two">1-2<br>
+                <input type="radio" name="patio" value="three-four">3-4<br>
+                <input type="radio" name="patio" value="more">More<br>
+                <br>
+                <label>Are you planning on adopting a dog or a cat?</label><br>
+                <select>
+                    <option value="name">Dog</option><br>
+                    <option value="name">Cat</option><br>
+                </select><br><br>
+                <label >How did you hear about us?</label><br>
+                <textarea cols="30" rows="5"></textarea><br> <br><!--30 characters-->
+                <input type="submit" value="Submit Form">
+            </fieldset>
+        </form>
     </main>
     <footer></footer>
 
