@@ -135,6 +135,16 @@ input[type="submit"]{
     border-color: rgb(238, 211, 150);
     color: #fff;
 }
+/*Gallery*/
+#gallery{
+    display: block;
+    margin: 0 15px 0 15px;
+}
+.photo{
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+}
 /*Footer*/
 footer{
     height: 40px;
