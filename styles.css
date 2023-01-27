@@ -136,14 +136,13 @@ input[type="submit"]{
     color: #fff;
 }
 /*Gallery*/
-#gallery{
-    display: block;
-    margin: 0 15px 0 15px;
-}
 .photo{
-    height: 100px;
-    width: 100px;
-    padding: 5px;
+    position: relative;
+    height: 400px;
+    width: 100%;
+    display: inline-block;
+    margin: 0 15px 0 15px;
+    list-style: none;
 }
 /*Footer*/
 footer{
