@@ -147,6 +147,7 @@ input[type="submit"]{
 #gallery .photo{
     width: 100%;
     cursor: pointer;
+    list-style: none;
 }
 
 
